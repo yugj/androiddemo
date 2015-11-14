@@ -1,4 +1,6 @@
-package com.yugj.test.androiddemo;
+package com.yugj.test;
+
+import com.yugj.test.androiddemo.R;
 
 import android.os.Bundle;
 import android.app.Activity;
