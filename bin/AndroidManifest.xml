@@ -16,11 +16,22 @@
         <activity
             android:name="com.yugj.test.androiddemo.MainActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.yugj.test.androiddemo.activity.Activity1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.yugj.test.androiddemo.intent.Intent1"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yugj.test.androiddemo.intent.Intent2"
+            android:label="@string/app_name" >
         </activity>
     </application>
 
