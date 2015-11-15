@@ -45,6 +45,7 @@ public class ListViewTest extends ListActivity {
 		
 		setListAdapter(adapter);
 		
+		
 	}
 
 	@Override
