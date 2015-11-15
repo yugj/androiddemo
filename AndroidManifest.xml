@@ -35,14 +35,40 @@
         <activity
             android:name="com.yugj.test.androiddemo.activity.ActivityLifeCycle"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            
         </activity>
         <activity
             android:name="com.yugj.test.androiddemo.activity.ActivityLifeCycle2"
             android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.yugj.test.androiddemo.activity.DialogActivity"
+            android:label="dialog activity test" 
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        
+        
+        <activity
+            android:name="com.yugj.test.androiddemo.item.RadioAndCheckboxTest"
+            android:label="dialog activity test" 
+            >
+        </activity>
+        
+        <activity
+            android:name="com.yugj.test.androiddemo.item.ProgressBarTest"
+            android:label="dialog activity test" 
+            >
+        </activity>
+        
+        <activity
+            android:name="com.yugj.test.androiddemo.item.ListViewTest"
+            android:label="list view test" 
+            >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
