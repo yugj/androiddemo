@@ -65,6 +65,11 @@
             android:name="com.yugj.test.androiddemo.item.ListViewTest"
             android:label="list view test" 
             >
+        </activity>
+        <activity
+            android:name="com.yugj.test.androiddemo.sqlite.SqliteActivity"
+            android:label="demo" 
+            >
              <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
