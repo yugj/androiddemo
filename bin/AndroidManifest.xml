@@ -66,8 +66,15 @@
             android:label="list view test" 
             >
         </activity>
+        
         <activity
             android:name="com.yugj.test.androiddemo.sqlite.SqliteActivity"
+            android:label="demo" 
+            >
+        </activity>
+        
+        <activity
+            android:name="com.yugj.test.androiddemo.http.FileDownloaderActivity"
             android:label="demo" 
             >
              <intent-filter>
@@ -76,5 +83,8 @@
             </intent-filter>
         </activity>
     </application>
+    
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>
